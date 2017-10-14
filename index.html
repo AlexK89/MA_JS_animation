@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="all_content">
+    <div class="radio_buttons">
+        <p class="shadow"><input type="radio" name="switcher" value="on" class="radios" checked="checked"> Allow</p>
+        <p class="shadow"><input type="radio" name="switcher" value="off" class="radios"> Block</p>
+    </div>
+    <div class="dropdown shadow">
+        <button href="#" class="action">Menu</button>
+        <ul class="list">
+            <li class="element">Element 1</li>
+            <li class="element">Element 2</li>
+            <li class="element">Element 3</li>
+            <li class="element">Element 4</li>
+        </ul>
+    </div>
+    <div class="excercise_3">
+        <div class="text_content shadow">
+            <h2>Hello <span class="more">more...</span></h2>
+            <p>
+                We have a great track record for a start. 100% of our grads have been snapped up and are now using their new skills as software developers.
+                Mayden Academy is taught by a group of professional software developers and trainers. We offer small class sizes averaging 6 people per class, which means you get plenty of one to one time, learning directly from them.
+            </p>
+        </div>
+    </div>
+    <div class="excercise_4">
+        <div id="drag" class="shadow">
+            <p id="drag_text" draggable="true">Drag me</p>
+        </div>
+        <div id="drop" class="shadow"></div>
+    </div>
+    <div class="excercise_5">
+        <button class="click_on_me shadow">SHOW POPUP</button>
+        <div class="popup_window">
+            <div class="popup">
+                <h1>Popup</h1>
+                <p><button class="close_popup click_on_me shadow">Close</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="dropdown.js"></script>
+</html>
